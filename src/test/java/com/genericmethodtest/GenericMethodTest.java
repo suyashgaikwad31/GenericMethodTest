@@ -24,4 +24,27 @@ public class GenericMethodTest {
         Integer value = genericMethod.testMaximum(3, 4, 5);
         Assertions.assertEquals(5, value);
     }
+
+    @Test
+    public void givenFloat_WriteFirstFloatIsMaximum_ReturnValue() {
+        GenericMethod genericMethod = new GenericMethod();
+        Float value = genericMethod.testMaximum(6.6f, 8.8f, 7.7f);
+        Assertions.assertEquals(8.8f, value);
+    }
+
+    @Test
+    public void givenFloat_WriteSecondFloatIsMaximum_ReturnValue() {
+        GenericMethod genericMethod = new GenericMethod();
+        Float value = genericMethod.testMaximum(8.8f, 6.6f, 7.7f);
+        Assertions.assertEquals(8.8f, value);
+    }
+
+    @Test
+    public void givenFloat_WriteThirdFloatIsMaximum_ReturnValue() {
+        GenericMethod genericMethod = new GenericMethod();
+        Float value = genericMethod.testMaximum(7.7f, 6.6f, 8.8f);
+        Assertions.assertEquals(8.8f, value);
+    }
+
+
 }
