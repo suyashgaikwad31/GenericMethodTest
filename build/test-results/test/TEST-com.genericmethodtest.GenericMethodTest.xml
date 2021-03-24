@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.genericmethodtest.GenericMethodTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-24T15:25:30" hostname="DESKTOP-GFV8CMG" time="0.024">
+<testsuite name="com.genericmethodtest.GenericMethodTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-24T15:28:40" hostname="DESKTOP-GFV8CMG" time="0.019">
   <properties/>
-  <testcase name="givenString_WriteFirstStringIsMaximum_ReturnValue()" classname="com.genericmethodtest.GenericMethodTest" time="0.024"/>
+  <testcase name="givenString_WriteFirstStringIsMaximum_ReturnValue()" classname="com.genericmethodtest.GenericMethodTest" time="0.019"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

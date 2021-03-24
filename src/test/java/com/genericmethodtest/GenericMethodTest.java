@@ -46,5 +46,27 @@ public class GenericMethodTest {
         Assertions.assertEquals(8.8f, value);
     }
 
+    @Test
+    public void givenString_WriteFirstStringIsMaximum_ReturnValue() {
+        GenericMethod genericMethod = new GenericMethod();
+        String value = genericMethod.testMaximum("pear", "apple", "orange");
+        Assertions.assertEquals("pear", value);
 
+    }
+
+    @Test
+    public void givenString_WriteSecondStringIsMaximum_ReturnValue() {
+        GenericMethod genericMethod = new GenericMethod();
+        String value = genericMethod.testMaximum("apple", "pear", "orange");
+        Assertions.assertEquals("pear", value);
+
+    }
+
+    @Test
+    public void givenString_WriteThirdStringIsMaximum_ReturnValue() {
+        GenericMethod genericMethod = new GenericMethod();
+        String value = genericMethod.testMaximum("orange", "apple", "pear");
+        Assertions.assertEquals("pear", value);
+
+    }
 }
